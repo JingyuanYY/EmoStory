@@ -1,10 +1,4 @@
-from openai import OpenAI
 import json
-
-client = OpenAI(
-    base_url='https://api.openai.com/v1',
-    api_key='your_api_key'
-)
 
 
 def safe_json_load(s):
@@ -14,7 +8,7 @@ def safe_json_load(s):
     return json.loads(s)
 
 
-def emotional_writer_agent(story_json_path):
+def emotional_writer_agent(story_json_path, client):
     with open(story_json_path, 'r', encoding='utf-8') as f:
         story_data = json.load(f)
 

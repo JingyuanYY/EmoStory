@@ -5,6 +5,12 @@ import random
 from tqdm import tqdm
 from Emotion_Agent import emotional_understanding_agent
 from Writer_Agent import emotional_writer_agent
+from openai import OpenAI
+
+client = OpenAI(
+    base_url='https://api.openai.com/v1',
+    api_key='your_api_key'
+)
 
 
 def list_to_str(tmp_list):
@@ -55,10 +61,10 @@ def emotional_coordinated_agent(subject_list, story_sum, run_emotion):
                     print(f"element_num: ", element_num)
 
                     _, story_json_path = \
-                        emotional_understanding_agent(subject_path, emotion, subject, elements_str, element_num)
+                        emotional_understanding_agent(subject_path, emotion, subject, elements_str, element_num, client)
                     print("successful run --emotional_understanding_agent--")
 
-                    emotional_writer_agent(story_json_path)
+                    emotional_writer_agent(story_json_path, client)
                     print("successful run --emotional_writer_agent--")
 
                 except Exception as e:

@@ -1,0 +1,21 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Build
+target/
+build/
+out/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+env/

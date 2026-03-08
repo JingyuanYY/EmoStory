@@ -1,7 +1,8 @@
 #!/bin/bash
 
 #EMO_LIST_0=("amusement" "awe" "contentment" "excitement")
-GPU_PAIRS=("0,1" "2,3" "4,5" "6,7")
+#GPU_PAIRS=("0,1" "2,3" "4,5" "6,7")
+GPU_PAIRS=("0,1")
 # GPU id
 
 SCRIPT_PATH="./run_emostory.py"

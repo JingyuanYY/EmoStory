@@ -1,12 +1,6 @@
 import os.path
-from openai import OpenAI
 import json
 import random
-
-client = OpenAI(
-    base_url='https://api.openai.com/v1',
-    api_key='your_api_key'
-)
 
 
 def safe_json_load(s):
@@ -28,7 +22,7 @@ def get_random_style():
     return random.choice(style)
 
 
-def emotional_understanding_agent(file_path, emotion, subject, elements, element_num):
+def emotional_understanding_agent(file_path, emotion, subject, elements, element_num, client):
 
     sys_content = \
         f"""

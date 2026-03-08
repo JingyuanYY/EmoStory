@@ -1,0 +1,17 @@
+{
+    "Emotion": "sadness",
+    "Subject": "A blond woman",
+    "Theme": "A solemn moment of mourning at a gravesite",
+    "Elements": [
+        "grave marker",
+        "Funeral bouquet"
+    ],
+    "Event": "A blond woman stands quietly by a grave marker, holding a funeral bouquet as tears silently fall, overwhelmed by the weight of loss and sadness.",
+    "style": "Vinyl toy figure style.",
+    "story_prompts": [
+        "The same A blond woman stands solemnly in a misty cemetery at dawn, hands trembling as she gazes down a peaceful slope dotted with scattered fallen leaves and distant trees under a gray sky.",
+        "The same A blond woman kneels beside a simple grave marker engraved with weathered letters, her eyes fixed quietly on the carved name, the surrounding grass damp with morning dew and soft light filtering through bare branches.",
+        "The same A blond woman gently places a vibrant funeral bouquet of white lilies and roses on the grave, the flowers contrasting with the muted earth tones and the solemn stillness of an overcast afternoon.",
+        "The same A blond woman stands back slowly, wiping tears from her cheeks, as the cemetery fades into a blur of shadowed mourning figures and quiet stone paths stretching into a solemn twilight."
+    ]
+}

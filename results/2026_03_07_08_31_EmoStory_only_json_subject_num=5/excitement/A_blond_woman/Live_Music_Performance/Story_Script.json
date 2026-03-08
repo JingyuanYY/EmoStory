@@ -1,0 +1,16 @@
+{
+    "Emotion": "excitement",
+    "Subject": "A blond woman",
+    "Theme": "Live Music Performance",
+    "Elements": [
+        "female musician"
+    ],
+    "Event": "The blond woman eagerly steps onto the stage as the crowd cheers, her heart racing with excitement as she strums her guitar and launches into her first song.",
+    "style": "",
+    "story_prompts": [
+        "The same A blond woman eagerly steps onto a brightly lit stage, eyes wide with anticipation, as scattered stage lights cast dynamic shadows over an excited, dimly lit audience in the background.",
+        "The same A blond woman grips a sleek guitar, fingers poised on strings, as warm spotlights illuminate her focused expression and a single microphone stand appears beside her on stage.",
+        "The same A blond woman strums the guitar vigorously, hair flowing with movement, as band members and musical equipment subtly appear behind her, adding depth to the vibrant live performance setting.",
+        "The same A blond woman closes her eyes, immersed in the music, with a cheering crowd waving hands under colorful stage lights and a female musician playing keyboard joining the energetic atmosphere."
+    ]
+}

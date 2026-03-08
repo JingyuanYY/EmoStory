@@ -1,0 +1,19 @@
+{
+    "Emotion": "anger",
+    "Subject": "A blond girl",
+    "Theme": "Protest and confrontation",
+    "Elements": [
+        "protest sign",
+        "frown",
+        "scowl",
+        "demonstration"
+    ],
+    "Event": "At the demonstration, the blond girl tightly grips a protest sign, her face contorted with a scowl and frown as she angrily confronts the injustice around her.",
+    "style": "DreamWorks-style stylized 3D character.",
+    "story_prompts": [
+        "The same A blond girl stands firm in a bustling city square, furrowing brows deeply as the first protest sign slowly rises behind her, the crowd gathering with tense anticipation.",
+        "The same A blond girl grips the wooden pole of the protest sign tightly, turning sharply with a visible scowl as voices swell around her in an emerging demonstration of defiance.",
+        "The same A blond girl raises the protest sign higher, her expression twisting into a fierce frown amidst a sea of diverse protestors advancing through graffiti-lined urban streets.",
+        "The same A blond girl confronts an unseen authority, her shoulders squared and eyes blazing with anger, as the protest explodes into chaos with banners waving and police barriers visible."
+    ]
+}

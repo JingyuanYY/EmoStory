@@ -1,0 +1,17 @@
+{
+    "Emotion": "disgust",
+    "Subject": "A tiny baby",
+    "Theme": "Exploring a messy trash-strewn street corner",
+    "Elements": [
+        "trash cans",
+        "food wrappers"
+    ],
+    "Event": "The tiny baby crawled near the overflowing trash cans, reaching out to touch the sticky food wrappers, instantly recoiling with a look of disgust at the foul smell and grime.",
+    "style": "",
+    "story_prompts": [
+        "The same A tiny baby crawled cautiously on a grimy street corner, eyes wide with curiosity, surrounded by scattered dirty wrappers fluttering in the breeze against cracked concrete pavement.",
+        "The same A tiny baby inched closer to a toppled trash can, tentatively touching the edge, while discarded fast food wrappers littered the foreground and grimy alley walls loomed behind.",
+        "The same A tiny baby reached out to sticky food wrappers near an overflowing trash can, recoiling instantly with a scrunched face, as flies buzzed and grimy brick walls formed a dark frame.",
+        "The same A tiny baby sat back on dirty asphalt, wrinkling nose in disgust, the overflowing trash cans spilling refuse behind while food wrappers scattered widely across the grimy, litter-strewn street corner."
+    ]
+}

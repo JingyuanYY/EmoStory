@@ -1,0 +1,19 @@
+{
+    "Emotion": "sadness",
+    "Subject": "A young man",
+    "Theme": "Grieving at a Loved One's Grave",
+    "Elements": [
+        "graveyard",
+        "wilted rose",
+        "stone angel statue",
+        "grey sky"
+    ],
+    "Event": "Standing alone beside a cold stone angel statue in the grey, overcast graveyard, the young man gently places a wilted rose on the grave, his heart heavy with the silent sorrow of loss.",
+    "style": "",
+    "story_prompts": [
+        "The same A young man walks slowly through a quiet graveyard, head bowed amid scattered old tombstones under a pale blue sky with soft morning light.",
+        "The same A young man pauses thoughtfully, fingers clutching a wilted rose, standing before an ancient stone angel statue watching silently over aged graves shrouded in mist.",
+        "The same A young man kneels gently, placing the wilted rose on a weathered grave as the sky darkens, heavy grey clouds rolling in over the solemn cemetery.",
+        "The same A young man stands alone beside the cold stone angel statue, eyes fixed on the grave beneath a vast grey sky, embodying the deep sorrow of loss."
+    ]
+}

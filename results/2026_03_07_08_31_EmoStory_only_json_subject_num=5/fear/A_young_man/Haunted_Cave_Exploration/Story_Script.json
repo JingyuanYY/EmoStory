@@ -1,0 +1,18 @@
+{
+    "Emotion": "fear",
+    "Subject": "A young man",
+    "Theme": "Haunted Cave Exploration",
+    "Elements": [
+        "cave entrance",
+        "skeleton",
+        "shadowy figure"
+    ],
+    "Event": "As the young man cautiously entered the dark cave, he suddenly noticed a shadowy figure looming behind a pile of bones, sending a chill of fear down his spine.",
+    "style": "DreamWorks-style stylized 3D character.",
+    "story_prompts": [
+        "The same A young man hesitantly steps toward a jagged cave entrance framed by twisted roots and dim mist, shadows lengthening over rocky ground beneath a gray twilight sky.",
+        "The same A young man ventures deeper, cautiously illuminating ancient skeletal remains scattered across uneven cavern floor, eerie stalactites hang overhead, faint glimmers of bioluminescent moss trace the walls.",
+        "The same A young man freezes as a dark, indistinct shadowy figure emerges behind a heap of bones, cavern walls enclosing tightly with dripping water echoes and scattered flickering torchlight.",
+        "The same A young man backs away trembling through a narrow tunnel, the shadowy figure dissolving into darkness, faint echoes surround jagged rocks and a distant faintly lit cavern opening promises escape."
+    ]
+}

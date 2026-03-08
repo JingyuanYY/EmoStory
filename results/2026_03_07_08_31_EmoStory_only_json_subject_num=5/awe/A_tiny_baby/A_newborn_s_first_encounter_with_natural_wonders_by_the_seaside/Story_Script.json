@@ -1,0 +1,19 @@
+{
+    "Emotion": "awe",
+    "Subject": "A tiny baby",
+    "Theme": "A newborn's first encounter with natural wonders by the seaside",
+    "Elements": [
+        "calm sea",
+        "rainbow",
+        "coastline",
+        "green fields"
+    ],
+    "Event": "The tiny baby gazes in wide-eyed awe as a brilliant rainbow arches gracefully over the calm sea, its colors shimmering against the backdrop of the peaceful coastline and lush green fields.",
+    "style": "DreamWorks-style stylized 3D character.",
+    "story_prompts": [
+        "The same A tiny baby lies nestled in soft grass, eyes opening wide as gentle green fields stretch behind, sunlight dappling over vibrant blades swaying softly in the breeze.",
+        "The same A tiny baby reaches out with wonder, sitting near the edge of a rugged coastline where waves quietly lap against weathered rocks, seagulls flying low above the water’s edge.",
+        "The same A tiny baby crawls toward a shimmering calm sea, the surface smooth and glassy under a golden afternoon sky, reflecting subtle hues of approaching dusk.",
+        "The same A tiny baby gazes upward in awe as a brilliant rainbow arches gracefully over the calm sea, colors vibrant and shimmering, framing the peaceful coastline and lush green fields behind."
+    ]
+}

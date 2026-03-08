@@ -1,0 +1,19 @@
+{
+    "Emotion": "anger",
+    "Subject": "A young man",
+    "Theme": "A heated protest confrontation",
+    "Elements": [
+        "protester",
+        "protest sign",
+        "police officer",
+        "angry expression"
+    ],
+    "Event": "During a tense protest, the young man raises his protest sign defiantly as he glares angrily at the police officer blocking the crowd, his anger flaring over the escalating standoff.",
+    "style": "Vinyl toy figure style.",
+    "story_prompts": [
+        "The same A young man marches determinedly through a dense urban crowd, clenched fists swinging, amidst scattered protesters holding colorful protest signs, tense city street in the background.",
+        "The same A young man grips a vivid protest sign tightly, his posture stiff with resolve, as more protesters cluster behind him holding signs aloft, busy street life and tall buildings surrounding.",
+        "The same A young man stands defiantly, raising the protest sign high, face twisted into an angry expression, sharp glances toward a stern police officer in riot gear blocking a barricaded street.",
+        "The same A young man glares furiously, sign trembling in hand, front and center as the police officer steps forward, crowd shouting behind, dusk cityscape casting long shadows on pavement."
+    ]
+}

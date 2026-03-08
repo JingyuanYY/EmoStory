@@ -1,0 +1,18 @@
+{
+    "Emotion": "disgust",
+    "Subject": "A blond woman",
+    "Theme": "Encounter with urban trash and decay",
+    "Elements": [
+        "banana peel",
+        "cockroaches",
+        "trash bag"
+    ],
+    "Event": "While walking down a street corner, the blond woman recoiled in disgust as she noticed cockroaches crawling over a ripped trash bag spilling banana peels onto the sidewalk.",
+    "style": "DreamWorks-style stylized 3D character.",
+    "story_prompts": [
+        "The same A blond woman steps cautiously on a cracked city sidewalk where a solitary brown banana peel lies near a flickering streetlamp, casting eerie shadows against graffiti-covered brick walls.",
+        "The same A blond woman stops abruptly, pulling back foot in revulsion as several shiny black cockroaches scuttle quickly near the banana peel, crawling over littered newspapers beside a rusted metal fence.",
+        "The same A blond woman recoils, eyes wide in disgust as a torn black trash bag lies spilled near a grimy alley entrance, strewn with banana peels and scattered fast-food wrappers beneath flickering neon signs.",
+        "The same A blond woman turns sharply away, mouth twisted in displeasure, walking past a grim street corner crowded with overflowing trash bags, writhing cockroaches, banana peels, and stained concrete under flickering urban lights."
+    ]
+}

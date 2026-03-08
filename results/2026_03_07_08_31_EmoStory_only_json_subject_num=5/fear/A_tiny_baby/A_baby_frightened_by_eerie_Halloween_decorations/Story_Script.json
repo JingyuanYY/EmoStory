@@ -1,0 +1,18 @@
+{
+    "Emotion": "fear",
+    "Subject": "A tiny baby",
+    "Theme": "A baby frightened by eerie Halloween decorations",
+    "Elements": [
+        "doll",
+        "clown mask",
+        "fake blood"
+    ],
+    "Event": "The tiny baby cried in fear as it saw a doll wearing a clown mask splattered with fake blood sitting eerily nearby.",
+    "style": "DreamWorks-style stylized 3D character.",
+    "story_prompts": [
+        "The same A tiny baby trembling, wide-eyed, crawling cautiously near a dimly lit porch with an old, cracked doll sitting motionless in the shadows.",
+        "The same A tiny baby backed away, crying, as a sinister clown mask emerges hanging from a nearby tree branch under flickering streetlight.",
+        "The same A tiny baby reaching out hesitantly, tears streaming, while faint splatters of fake blood appear smeared on the cracked porch floor.",
+        "The same A tiny baby curled up on a dark doorstep, crying in fear, surrounded by eerie Halloween decorations including the blood-smeared clown mask and doll."
+    ]
+}

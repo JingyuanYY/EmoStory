@@ -1,0 +1,18 @@
+{
+    "Emotion": "fear",
+    "Subject": "A black haired boy",
+    "Theme": "Haunted Museum Encounter",
+    "Elements": [
+        "dinosaur skeleton",
+        "skull",
+        "blue light"
+    ],
+    "Event": "The black haired boy wandered through the dimly lit museum hall, his heart pounding as eerie blue light cast strange shadows over a massive dinosaur skeleton and scattered skulls, making him fear something might come alive in the silence.",
+    "style": "",
+    "story_prompts": [
+        "The same A black haired boy cautiously steps forward, eyes wide, while faint blue light seeps through the dusty museum windows, casting eerie glows on empty display cases in a vast hall.",
+        "The same A black haired boy freezes, reaching out trembling fingers toward a colossal dinosaur skeleton looming overhead, its shadow stretching across cracked tile floors under the growing blue light.",
+        "The same A black haired boy backs away, heart racing, as scattered skulls emerge on pedestals and display shelves, partially illuminated by flickering blue light, shadows dancing menacingly on stone walls.",
+        "The same A black haired boy turns sharply, startled, as the blue light intensifies and shadows shift, the massive dinosaur skeleton and skulls looming ominously behind in a silent, threatening museum chamber."
+    ]
+}

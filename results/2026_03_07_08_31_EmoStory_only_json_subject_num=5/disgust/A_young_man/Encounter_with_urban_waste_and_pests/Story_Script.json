@@ -1,0 +1,17 @@
+{
+    "Emotion": "disgust",
+    "Subject": "A young man",
+    "Theme": "Encounter with urban waste and pests",
+    "Elements": [
+        "trash pile",
+        "cockroach"
+    ],
+    "Event": "While walking past a trash pile, the young man recoiled in disgust as a cockroach suddenly scuttled across his path, reminding him of the unhygienic mess nearby.",
+    "style": "DreamWorks-style stylized 3D character.",
+    "story_prompts": [
+        "The same A young man walks briskly along a grimy city street, grimacing slightly at discarded wrappers and debris scattered near cracked sidewalks under flickering streetlights.",
+        "The same A young man pauses, nose wrinkled and body recoiling in discomfort as a towering trash pile looms on one side, overflowing with rotting food and plastic containers.",
+        "The same A young man takes a cautious step back, eyes wide in disgust as a shiny cockroach scuttles rapidly across his footpath, contrasting with the faded graffiti walls nearby.",
+        "The same A young man hurriedly steps away from the unkempt corner, head turned with a scowl, while shadows of urban decay and scattered waste linger around dimly lit alley entrances."
+    ]
+}

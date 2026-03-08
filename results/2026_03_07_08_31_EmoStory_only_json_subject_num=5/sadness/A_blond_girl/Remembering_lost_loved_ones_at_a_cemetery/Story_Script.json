@@ -1,0 +1,17 @@
+{
+    "Emotion": "sadness",
+    "Subject": "A blond girl",
+    "Theme": "Remembering lost loved ones at a cemetery",
+    "Elements": [
+        "grave stone",
+        "withered bouquets"
+    ],
+    "Event": "The blond girl stood quietly before the grave stone, her eyes fixed on the withered bouquets left behind, feeling a wave of sadness wash over her as memories of her lost loved one surfaced.",
+    "style": "",
+    "story_prompts": [
+        "The same A blond girl stands alone in a quiet cemetery, gently touching a cold grave stone surrounded by dew-covered grass under a gray, somber sky.",
+        "The same A blond girl kneels before the grave stone, placing a fragile withered bouquet carefully on the stone, autumn leaves swirling softly in the background.",
+        "The same A blond girl gazes downward, eyes moist, as a gentle wind scatters petals from the withered bouquets around the weathered grave stone amidst faded moss.",
+        "The same A blond girl rises slowly, taking one last longing look at the grave stone, with withered bouquets lying forgotten on the ground, the cemetery blanketed in soft twilight shadows."
+    ]
+}

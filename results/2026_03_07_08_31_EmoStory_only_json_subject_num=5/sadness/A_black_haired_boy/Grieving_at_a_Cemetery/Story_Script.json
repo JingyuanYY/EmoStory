@@ -1,0 +1,19 @@
+{
+    "Emotion": "sadness",
+    "Subject": "A black haired boy",
+    "Theme": "Grieving at a Cemetery",
+    "Elements": [
+        "cemetery",
+        "tombstones",
+        "tear",
+        "Lonely Bench"
+    ],
+    "Event": "The black haired boy sits quietly on a lonely bench in the cemetery, a tear slipping down his cheek as he looks across the tombstones, feeling the weight of loss around him.",
+    "style": "Vinyl toy figure style.",
+    "story_prompts": [
+        "The same A black haired boy stands hesitantly at the entrance of a quiet cemetery surrounded by bare trees under a gray sky.",
+        "The same A black haired boy slowly walks between scattered old tombstones, head bowed, with dry grass brushing against his feet.",
+        "The same A black haired boy sits down heavily on a worn wooden lonely bench, gazing ahead as a single tear rolls down the cheek.",
+        "The same A black haired boy leans forward on the lonely bench, hands clasped tightly, as the full scope of tombstones fills the background in mist."
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "Emotion": "disgust",
+    "Subject": "A blond girl",
+    "Theme": "Encounter with waste and filth",
+    "Elements": [
+        "dumpster"
+    ],
+    "Event": "The blond girl approached the dumpster to retrieve her lost book, but the overwhelming stench and sight of rotting trash made her recoil in disgust.",
+    "style": "Vinyl toy figure style.",
+    "story_prompts": [
+        "The same A blond girl cautiously steps into a dimly lit alley, eyes narrowing while scanning the grimy ground, with scattered refuse and crumpled papers beginning to emerge around her feet.",
+        "The same A blond girl leans forward, hand outstretched toward a grimy, graffiti-covered dumpster whose pungent odor subtly distorts the hazy air nearby, cracked pavement and flickering streetlight forming the grim setting.",
+        "The same A blond girl recoils abruptly, face scrunched in disgust, as swarming flies buzz around open, rotting trash spilling from the dumpster, a broken bottle glinting amidst decay and wrinkled plastic bags.",
+        "The same A blond girl, holding a damp, torn book retrieved from the waste, stands stumbling back onto the rain-slicked sidewalk, the dumpster looming behind her and a distant city skyline fading into dusk."
+    ]
+}

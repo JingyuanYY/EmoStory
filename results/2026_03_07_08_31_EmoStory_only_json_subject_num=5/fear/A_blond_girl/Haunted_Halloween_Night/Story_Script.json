@@ -1,0 +1,19 @@
+{
+    "Emotion": "fear",
+    "Subject": "A blond girl",
+    "Theme": "Haunted Halloween Night",
+    "Elements": [
+        "jack-o'-lantern",
+        "hooded figure",
+        "cobwebs",
+        "masked figure"
+    ],
+    "Event": "On a dark Halloween night, the blond girl nervously approached a flickering jack-o'-lantern when suddenly a hooded, masked figure emerged from the dense cobwebs, making her heart race with fear.",
+    "style": "",
+    "story_prompts": [
+        "The same A blond girl cautiously steps through a dimly lit street, eyes fixed on a flickering jack-o'-lantern glowing atop a weathered porch, autumn leaves swirling around under a crescent moon.",
+        "The same A blond girl inches closer, body tense, as dense cobwebs stretch across a darkened alleyway framed by gnarled trees, shadows deepening and fog beginning to curl around her feet.",
+        "The same A blond girl freezes mid-step, spotting a hooded figure emerging silently from behind the cobwebs, posture menacing under a twisted, barren tree silhouetted against a stormy sky.",
+        "The same A blond girl recoils in terror as a masked figure steps forward from the shadows, hands reaching out beneath a shattered streetlamp flickering weakly, surrounded by cracked tombstones and swirling mist."
+    ]
+}

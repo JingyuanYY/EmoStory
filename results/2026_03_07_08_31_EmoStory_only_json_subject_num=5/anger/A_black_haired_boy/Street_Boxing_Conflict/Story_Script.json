@@ -1,0 +1,19 @@
+{
+    "Emotion": "anger",
+    "Subject": "A black haired boy",
+    "Theme": "Street Boxing Conflict",
+    "Elements": [
+        "boxing glove",
+        "boxing ring",
+        "punch",
+        "sweat"
+    ],
+    "Event": "The black haired boy clenched his fists in anger as his opponent landed a heavy punch in the boxing ring, sweat dripping down his face fueling his fiery determination to fight back.",
+    "style": "",
+    "story_prompts": [
+        "The same A black haired boy clenched fists tightly, eyes blazing with fury, standing on a cracked urban street, gritty buildings towering behind, focused amid scattered debris and faint graffiti.",
+        "The same A black haired boy slipped on a worn boxing glove, muscles tensing, a narrow alley illuminated by a flickering streetlamp casting long shadows and revealing distant silhouettes of watching figures.",
+        "The same A black haired boy landed a fierce punch, body coiled with force, sweat beginning to drip from his brow, while the faint outline of a makeshift boxing ring formed amid cheering crowds nearby.",
+        "The same A black haired boy wiped sweat from his face, breathing heavily, determined gaze fixed forward inside the glowing boxing ring framed by ropes and surrounded by an intense, roaring urban nighttime crowd."
+    ]
+}

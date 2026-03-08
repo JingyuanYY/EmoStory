@@ -1,0 +1,19 @@
+{
+    "Emotion": "sadness",
+    "Subject": "A tiny baby",
+    "Theme": "Grieving at a gravesite",
+    "Elements": [
+        "grave",
+        "wreaths",
+        "mourner",
+        "tear"
+    ],
+    "Event": "At the somber grave, a mourner gently holds a tiny baby who lets out a sorrowful cry, their tear mingling with the drizzle as they both share a quiet moment of loss.",
+    "style": "",
+    "story_prompts": [
+        "The same A tiny baby cries softly, nestled in the arms of a mourner beneath a gray, overcast sky in a quiet cemetery with scattered autumn leaves.",
+        "The same A tiny baby gazes upward, tear rolling down the cheek, while the mourner crouches in front of a simple, weathered grave framed by damp earth.",
+        "The same A tiny baby extends a small hand toward vibrant wreaths laid gently against the grave, delicate raindrops starting to fall in the background.",
+        "The same A tiny baby rests silently against the mourner’s chest, both surrounded by swirling mist and faded wreaths by the freshly tended grave."
+    ]
+}

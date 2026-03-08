@@ -1,0 +1,17 @@
+{
+    "Emotion": "fear",
+    "Subject": "A blond woman",
+    "Theme": "A haunted house encounter with a ghost",
+    "Elements": [
+        "ghost",
+        "bloodstains"
+    ],
+    "Event": "As the blond woman explored the abandoned house, she suddenly saw a ghostly figure emerging from the shadows, surrounded by eerie bloodstains, and her heart pounded with fear.",
+    "style": "",
+    "story_prompts": [
+        "The same A blond woman cautiously steps over broken floorboards inside a dim, dusty, abandoned house, light filtering through cracked windows revealing peeling wallpaper and scattered debris.",
+        "The same A blond woman freezes, staring wide-eyed at faint, dark red bloodstains smeared across an ancient wooden staircase wall, casting eerie shadows amid the crumbling interior.",
+        "The same A blond woman recoils as a translucent ghostly figure slowly materializes from the shadows, its ethereal form glowing faintly against the dark, decrepit hallway backdrop.",
+        "The same A blond woman runs frantically through the shadowed corridors with ghostly whispers trailing, the bloodstains smeared on the floor intensifying the chilling, haunted atmosphere."
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "Emotion": "amusement",
+    "Subject": "A young man",
+    "Theme": "Fun day at the carnival",
+    "Elements": [
+        "roller coaster",
+        "carnival",
+        "bright lights",
+        "food stalls"
+    ],
+    "Event": "At the carnival, the young man laughed heartily as he screamed and waved his hands on the roller coaster, before stopping by the food stalls to enjoy some tasty snacks amid the bright lights.",
+    "style": "DreamWorks-style stylized 3D character.",
+    "story_prompts": [
+        "The same A young man excitedly rushes through a bustling carnival entrance lined with colorful tents under a pastel sky, anticipation brightening his face amid scattered balloons and faces.",
+        "The same A young man climbs into the roller coaster car, gripping the safety bar, mouth open in a scream, hands waving wildly as the towering roller coaster structure looms behind brightening the twilight.",
+        "The same A young man laughs heartily, arms raised in triumph at the roller coaster's end, vibrant carnival rides spinning softly behind him, casting dynamic shadows in the early evening light.",
+        "The same A young man samples snacks at a crowded food stall lined with strings of bright lights, the carnival's cheerful night ambiance glowing around carts selling treats and joyful visitors mingling."
+    ]
+}

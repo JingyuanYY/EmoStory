@@ -1,0 +1,17 @@
+{
+    "Emotion": "anger",
+    "Subject": "A blond woman",
+    "Theme": "Confrontation during a fiery protest",
+    "Elements": [
+        "protest",
+        "fire"
+    ],
+    "Event": "A blond woman scowled fiercely as flames rose around her during a heated protest, her anger ignited by the chaos and destruction unfolding nearby.",
+    "style": "",
+    "story_prompts": [
+        "The same A blond woman scowled fiercely, fists clenched tightly, standing amid a dense crowd of shouting protesters with raised fists and banners under a gray urban skyline.",
+        "The same A blond woman steps forward aggressively, voice raised, as tension rises around her in the growing protest crowd, some holding signs with bold slogans, erupting in fiery chants.",
+        "The same A blond woman glares intensely, stepping back from glowing embers as small fires flare on burning barricades nearby, thick smoke drifting upward against a darkening city street.",
+        "The same A blond woman stands resolutely in front of towering flames consuming debris, face illuminated by firelight, surrounded by chaotic protesters and swirling ash in a tempestuous night."
+    ]
+}

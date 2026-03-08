@@ -1,0 +1,17 @@
+{
+    "Emotion": "excitement",
+    "Subject": "A young man",
+    "Theme": "Live musical performance",
+    "Elements": [
+        "stage",
+        "electric guitar"
+    ],
+    "Event": "A young man eagerly steps onto the stage clutching his electric guitar, feeling a rush of excitement as the crowd roars and the stage lights blaze to life.",
+    "style": "Vinyl toy figure style.",
+    "story_prompts": [
+        "The same A young man strides confidently toward the brightly lit concert hall entrance, anticipation lighting his face under warm dusk skies, eager to share his passion.",
+        "The same A young man grips the vibrant electric guitar tightly backstage, surrounded by scattered cables and glowing monitors, muscles tense in preparation.",
+        "The same A young man steps onto a sprawling illuminated stage, spotlight casting dramatic shadows as a roaring crowd blurs into a sea of excitement.",
+        "The same A young man energetically strums the electric guitar on stage, colorful lights swirling overhead, the audience visibly swept up in the thrilling live musical performance."
+    ]
+}

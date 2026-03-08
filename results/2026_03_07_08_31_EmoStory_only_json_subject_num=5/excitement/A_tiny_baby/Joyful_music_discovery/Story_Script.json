@@ -1,0 +1,17 @@
+{
+    "Emotion": "excitement",
+    "Subject": "A tiny baby",
+    "Theme": "Joyful music discovery",
+    "Elements": [
+        "acoustic guitar",
+        "music"
+    ],
+    "Event": "A tiny baby giggles excitedly for the first time as gentle acoustic guitar melodies fill the room, sparking a delightful discovery of music’s magic.",
+    "style": "DreamWorks-style stylized 3D character.",
+    "story_prompts": [
+        "The same A tiny baby lies on a soft blanket, eyes wide with curiosity, reaching tiny hands toward a warmly lit cozy room filled with gentle sunlight streaming through a window draped with light curtains.",
+        "The same A tiny baby sits up, smiling as the first soft string sounds of an acoustic guitar gently resonate nearby, wooden floor and scattered soft toys framing a bright, inviting nursery corner.",
+        "The same A tiny baby giggles joyously, arms raised toward a nearby acoustic guitar cradled by a sitting figure, surrounded by colorful musical notes whimsically floating in the air against a softly painted wall.",
+        "The same A tiny baby claps excitedly, captivated by the surrounding room now alive with swirling musical notes and warm golden light, the acoustic guitar resting on a plush rug beside a small stack of children’s books."
+    ]
+}

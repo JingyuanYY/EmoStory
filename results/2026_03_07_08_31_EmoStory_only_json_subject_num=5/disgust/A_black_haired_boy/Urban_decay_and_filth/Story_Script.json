@@ -1,0 +1,16 @@
+{
+    "Emotion": "disgust",
+    "Subject": "A black haired boy",
+    "Theme": "Urban decay and filth",
+    "Elements": [
+        "pile of garbage"
+    ],
+    "Event": "The black haired boy accidentally kicked a pile of garbage on the street corner, releasing a foul stench that made him wrinkle his nose in disgust.",
+    "style": "Vinyl toy figure style.",
+    "story_prompts": [
+        "The same A black haired boy walks cautiously along a cracked sidewalk lined with peeling paint and scattered trash under dull gray skies, eyes scanning uneasily.",
+        "The same A black haired boy steps near a grimy street corner where a growing pile of garbage teeters messily, brown paper and plastic bags bulging visibly.",
+        "The same A black haired boy accidentally kicks the pile of garbage, causing loose cans and rotting food to spill outward, face wrinkling sharply in disgust.",
+        "The same A black haired boy recoils back with clenched eyes as a noxious stench swirls around him, blurred city buildings under heavy smog looming behind."
+    ]
+}

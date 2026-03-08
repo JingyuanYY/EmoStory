@@ -1,0 +1,16 @@
+{
+    "Emotion": "amusement",
+    "Subject": "A tiny baby",
+    "Theme": "A joyful day at the theme park",
+    "Elements": [
+        "ferris wheel"
+    ],
+    "Event": "The tiny baby giggled with amusement as the colorful lights of the ferris wheel slowly spun above, delighting in the gentle movement and bright sights.",
+    "style": "DreamWorks-style stylized 3D character.",
+    "story_prompts": [
+        "The same A tiny baby sits on a soft picnic blanket, wide-eyed and smiling, surrounded by green grass under a bright blue sky at a bustling theme park entrance.",
+        "The same A tiny baby crawls with glee toward a colorful carousel nearby, reaching out to spinning horses framed by vibrant tents and joyful visitors.",
+        "The same A tiny baby giggles while held up toward a towering ferris wheel, its bright lights beginning to glow vividly against a twilight sky dotted with clouds.",
+        "The same A tiny baby laughs with delight, eyes sparkling as the ferris wheel slowly spins above against a backdrop of glowing park lanterns and festive evening crowds."
+    ]
+}

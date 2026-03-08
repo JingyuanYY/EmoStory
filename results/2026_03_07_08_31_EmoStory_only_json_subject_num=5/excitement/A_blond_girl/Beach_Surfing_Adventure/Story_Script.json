@@ -1,0 +1,17 @@
+{
+    "Emotion": "excitement",
+    "Subject": "A blond girl",
+    "Theme": "Beach Surfing Adventure",
+    "Elements": [
+        "surfer",
+        "wave"
+    ],
+    "Event": "A blond girl catches her first big wave while surfing for the day, feeling a rush of excitement as she rides the surfboard skillfully across the sparkling water.",
+    "style": "",
+    "story_prompts": [
+        "The same A blond girl stretches on sunlit sandy shore, preparing her bright surfboard against a backdrop of calm ocean and scattered seashells.",
+        "The same A blond girl paddles through gentle turquoise water, focused expression as small rolling waves begin to swell under clear blue sky.",
+        "The same A blond girl stands poised on surfboard, expertly balancing as a towering crystalline wave rises dynamically behind, spray sparkling in sunlight.",
+        "The same A blond girl triumphantly rides a massive curling wave, arms outstretched for balance, with foamy white surf and radiant horizon in background."
+    ]
+}

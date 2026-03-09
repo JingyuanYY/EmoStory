@@ -16,7 +16,7 @@ cleanup() {
 }
 trap cleanup SIGINT SIGTERM
 
-STORY_DIR="/mnt/d/crc/code/Story2Board_refresh/results/2026_03_07_08_31_EmoStory_only_json_subject_num=5"
+STORY_DIR="./results/EmoStory_Script"
 # ------------------------------
 # 函数1：启动一个 emotion 列表
 # ------------------------------

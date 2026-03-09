@@ -133,7 +133,7 @@ class EmoStoryAttentionProcessor:
         attn_store=None,
         n_prompt_tokens=None,
         n_image_tokens=None,
-        ravm_mixing_coef=None,
+        mixing_coef=None,
         first_mixing_block=None,
         last_mixing_block=None,
         first_mixing_denoising_step=None,
@@ -272,7 +272,7 @@ class EmoStoryAttentionProcessor:
 
                     save = value[i, :, n_prompt_tokens + n_panel_tokens + bottom_indices, :]  # (H, k, D)
                     paste = value[i, :, n_prompt_tokens + matched_top_indices, :]  # (H, k, D)
-                    blended = (1 - ravm_mixing_coef) * save + ravm_mixing_coef * paste
+                    blended = (1 - mixing_coef) * save + mixing_coef * paste
                     value[i, :, n_prompt_tokens + n_panel_tokens + bottom_indices, :] = blended
 
         if image_rotary_emb is not None:

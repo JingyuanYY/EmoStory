@@ -32,7 +32,7 @@ def parse_args():
                         help='Classifier-free guidance scale (higher values = closer `to prompt, lower = more diverse)')
     parser.add_argument('--same_noise', type=bool, default=True,
                         help='Use the same initial noise tensor for all images in the batch')
-    parser.add_argument('--ravm_mixing_coef', type=float, default=0.5,
+    parser.add_argument('--mixing_coef', type=float, default=0.5,
                         help='Region-aware Story Generation')
     parser.add_argument('--first_mixing_block', type=int, default=30,
                         help='First transformer block index where Region-aware is applied')
@@ -112,7 +112,7 @@ def save_story_images(images, output_dir, json_output_dir, prompts, story_data):
     print("Seeds, prompts, and image paths have been saved")
 
 
-def run_mutual_story(pipe, prompts, seed, guidance, n_diff_steps, same_noise, ravm_mixing_coef,
+def run_mutual_story(pipe, prompts, seed, guidance, n_diff_steps, same_noise, mixing_coef,
     first_mixing_block, last_mixing_block, first_mixing_denoising_step, last_mixing_denoising_step,
     is_enhance_elements, boost_factor, dtype, device=0, output_dir="./", args=None
 ):
@@ -176,7 +176,7 @@ def run_mutual_story(pipe, prompts, seed, guidance, n_diff_steps, same_noise, ra
         'attn_store': attention_store,
         'n_prompt_tokens': n_prompt_tokens,
         'n_image_tokens': n_image_tokens,
-        'ravm_mixing_coef': ravm_mixing_coef,
+        'mixing_coef': mixing_coef,
         'first_mixing_block': first_mixing_block,
         'last_mixing_block': last_mixing_block,
         'first_mixing_denoising_step': first_mixing_denoising_step,
@@ -210,7 +210,7 @@ def load_model():
 
     device_1 = "cuda:0"
     device_2 = "cuda:1"
-    flux_id = "/mnt/d/crc/models/FLUX.1-dev"
+    flux_id = "black-forest-labs/FLUX.1-dev"
 
     text_encoder = CLIPTextModel.from_pretrained(
         flux_id, subfolder="text_encoder", torch_dtype=torch.bfloat16,
@@ -293,7 +293,7 @@ def agent_to_EmoStory(pipe, story_path, story_json_path):
         guidance=args.guidance,
         n_diff_steps=args.n_diff_steps,
         same_noise=args.same_noise,
-        ravm_mixing_coef=args.ravm_mixing_coef,
+        mixing_coef=args.mixing_coef,
         first_mixing_block=args.first_mixing_block,
         last_mixing_block=args.last_mixing_block,
         first_mixing_denoising_step=args.first_mixing_denoising_step,
@@ -342,7 +342,7 @@ def get_theme_path_list(top_path, worker_id=0, worker_num=4):
 
 if __name__ == '__main__':
     args.seed = 42
-    args.save_step = [3]
+    args.save_step = [10]
     #args.save_step = [3, 5, 8, 10, 15]
     agent_result_path = args.agent_result_path
 

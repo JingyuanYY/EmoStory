@@ -1,24 +1,20 @@
 # EmoStory: Emotion-Aware Story Generation
+> [Jingyuan Yang](https://jingyuanyy.github.io/), Rucong Chen, [Hui Huang](https://vcc.tech/~huihuang)<sup>*</sup>  
+> Shenzhen University<br>
+> Emotion-aware Story Generation aims to generate subject-consistent visual stories with explicit emotional directions. This task is challenging due to the abstract nature of emotions, which must be grounded in concrete visual elements and consistently expressed across a narrative through visual composition.
 
-**Project page:** https://github.com/Chanshang/EmoStory.git
+<a href="https://arxiv.org/abs/2512.05478"><img src="https://img.shields.io/badge/arXiv-2512.05478-b31b1b.svg" height=22.5></a>
 
-**Paper (arXiv):** https://arxiv.org/abs/111
-
-## Abstract
-Story generation aims to produce image sequences that depict coherent narratives while maintaining subject consistency across frames. Although existing methods have excelled in producing coherent and expressive stories, they remain largely emotion-neutral, focusing on what subject appears in a story while overlooking how emotions shape narrative interpretation and visual presentation. As stories are intended to engage audiences emotionally, we introduce emotion-aware story generation, a new task that aims to generate subject-consistent visual stories with explicit emotional directions. This task is challenging due to the abstract nature of emotions, which must be grounded in concrete visual elements and consistently expressed across a narrative through visual composition. 
-
-To address these challenges, we propose **EmoStory**, a two-stage framework that integrates agent-based story planning and region-aware story generation. The planning stage transforms target emotions into coherent story prompts with emotion agent and writer agent, while the generation stage preserves subject consistency and injects emotion-related elements through region-aware composition.
-
-<p>
-    <img src="docs/teaser_page-0001.jpg" width="800px"/>  
-    <br/>
-    A training-free method for story generation that stimulate the designated emotions.
+<p align="left">
+<img src="docs/teaser.jpg" width="2373" alt=""/>  
+<br>
+Fig 1. Emotion-aware story generation with EmoStory, which introduces emotions (top: positive, bottom: negative) to given subjects (middle: neutral), generating coherent and emotionally expressive visual stories.
 </p>
 
 
-## Installation
+## Quick Start
 
-### Clone the repository
+### Requirements
 
 ```bash
 # 1) Clone the repository
@@ -31,7 +27,8 @@ conda activate emostory
 
 # 3) Install the compatible torch version
 https://pytorch.org/get-started/previous-versions/
-pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url ......
+# CUDA 12.4
+pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu124
 
 # 4) Install dependencies
 pip install -r requirements.txt
@@ -39,13 +36,20 @@ pip install -r requirements.txt
 
 > Tip: It is recommended to manually install the larger library by referring to the `req without dependence.txt` file, and follow the debug reminder for installation during runtime.
 
+> You can download the baseline models Flux.1-dev from [here](https://huggingface.co/black-forest-labs/FLUX.1-dev) 
+
 ---
 
-## Start
+## EmoStory
+<p align="left">
+<img src="docs/method.jpg" width="3457" alt=""/>  
+<br>
+Fig 2. Overview of EmoStory. Agent-based story planning maps abstract emotions to concrete emotional prompts at semantic level, while region-aware story generation preserves subject consistency and enhances emotional expressiveness at pixel level.
+</p>
 
-### 1. Build a story script based on the emotion factor tree and LLM
+### 1. Agent-based Story Planning
 
-- Set LLM API interface in file `ask_gpt/Coordinated_Agent.py`.
+Set LLM API interface in file `/ask_gpt/Coordinated_Agent.py`.
 
 ```bash
 client = OpenAI(
@@ -54,23 +58,50 @@ client = OpenAI(
 )
 ```
 
-- Then run it.
+Then run it.
+
 ```bash
 python ask_gpt/Coordinated_Agent.py
 ```
 
-- Generated story script for eight emotion are written to `--results/script`.  
+Generated story script for eight emotion are written to `/results`.  
+We have set up a sample: `/results/EmoStory_Script`
 
-### 2. Running an emotional enhancement story generation model
+### 2. Region-aware Story Generation
 
-
-### Concrete example
-- EmoStory has a high memory requirement, but can run in parallel on two 24GB GPUs. To specify GPU usage, modify the `GPU-PAIRS` in the `bash.run.sh` file. Modify `STORY_DIR` to select the script position in `results`.
+EmoStory has a memory requirement, which can run in parallel on two 24GB GPUs. In the `bash.run.sh`, you can modify the `GPU-PAIRS` to specify GPU usage, and modify `STORY_DIR` to select the script position in `results`.
 
 ```bash
 bash bash_run.sh
 ```
 
-- Generated story images for eight emotion are written to `--results/script`.  
+Generated story images for eight emotion are written to `/results`.  
 
 ---
+
+## Results
+### Qualitative Results
+
+<p align="left">
+<img src="docs/sota.png" width="698" alt=""/>  
+<br>
+Fig 3. Comparisons with state-of-the-art methods. EmoStory is superior in both emotion evocation and story expressiveness.
+</p>
+
+### Quantitative Results
+<p align="left">
+<img src="docs/sota_plot.jpg" width="4471" alt=""/>  
+<br>
+Fig 4. EmoStory (red) outperforms all compared methods (blue) and ablations (green) across three evaluation metrics.
+</p>
+
+## Citation
+If you find this work useful, please kindly cite our paper:
+```
+@article{yang2025emostyle,
+  title={EmoStyle: Emotion-Driven Image Stylization},
+  author={Yang, Jingyuan and Bai, Zihuan and Huang, Hui},
+  journal={arXiv preprint arXiv:2512.05478},
+  year={2025}
+}
+```

@@ -33,15 +33,15 @@ def parse_args():
     parser.add_argument('--same_noise', type=bool, default=True,
                         help='Use the same initial noise tensor for all images in the batch')
     parser.add_argument('--ravm_mixing_coef', type=float, default=0.5,
-                        help='Mixing coefficient for Reciprocal Attention Value Mixing (RAVM)')
+                        help='Region-aware Story Generation')
     parser.add_argument('--first_mixing_block', type=int, default=30,
-                        help='First transformer block index where RAVM mixing is applied')
+                        help='First transformer block index where Region-aware is applied')
     parser.add_argument('--last_mixing_block', type=int, default=57,
-                        help='Last transformer block index where RAVM mixing is applied')
+                        help='Last transformer block index where Region-aware is applied')
     parser.add_argument('--first_mixing_denoising_step', type=int, default=1,
-                        help='First denoising step where RAVM mixing is applied')
+                        help='First denoising step where Region-aware is applied')
     parser.add_argument('--last_mixing_denoising_step', type=int, default=21,
-                        help='Last denoising step where RAVM mixing is applied')
+                        help='Last denoising step where Region-aware is applied')
     parser.add_argument('--n_diff_steps', type=int, default=28,
                         help='Total number of denoising steps')
 
@@ -226,7 +226,6 @@ def load_model():
         subfolder="transformer",
         torch_dtype=dtype,
         device_map="balanced",
-        # 我还是写了 balanced，导致lora加载问题
     )
 
     # Create custom Story2Board pipeline
@@ -331,7 +330,6 @@ def get_theme_path_list(top_path, worker_id=0, worker_num=4):
                 #     continue
                 tmp_list.append(theme_path)
 
-    # 切分为 worker_num 份
     total = len(tmp_list)
     size = total // worker_num
     remainder = total % worker_num

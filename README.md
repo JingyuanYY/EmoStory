@@ -1,5 +1,5 @@
 # EmoStory: Emotion-Aware Story Generation
-> [Jingyuan Yang](https://jingyuanyy.github.io/), Rucong Chen, WeiBin Luo, [Hui Huang](https://vcc.tech/~huihuang)<sup>*</sup>  
+> [Jingyuan Yang](https://jingyuanyy.github.io/), Rucong Chen, Weibin Luo, [Hui Huang](https://vcc.tech/~huihuang)<sup>*</sup>  
 > Shenzhen University<br>
 > Emotion-aware Story Generation aims to generate subject-consistent visual stories with explicit emotional directions. This task is challenging due to the abstract nature of emotions, which must be grounded in concrete visual elements and consistently expressed across a narrative through visual composition.
 
